@@ -1,0 +1,27 @@
+.order-info-section {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.order-info-section span {
+    font-weight: normal;
+}
+
+.loading-text, .error-text {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+}
+
+.order-details-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order-details-action2 {
+    display: flex;
+    gap: 10px;
+}

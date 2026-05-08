@@ -1,0 +1,80 @@
+.order-add-content {
+    border-radius: 8px;
+    width: 100%;
+    min-height: 300px;
+    max-height: 500px; /* Batasi tinggi agar bisa di-scroll */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    overflow-y: auto; /* Tambahkan scroll jika konten melebihi max-height */
+    scrollbar-width: thin; /* Buat scrollbar lebih kecil di Firefox */
+    scrollbar-color: #aaa transparent; /* Warna scrollbar di Firefox */
+}
+
+.input-label-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-label-sub-section {
+    display: flex;
+    gap: 20px
+}
+
+/* Scrollbar untuk Chrome, Edge, dan Safari */
+.order-add-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.order-add-content::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 4px;
+}
+
+.order-add-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.content-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reset-item {
+    font-size: 14px;
+    color: red;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+    padding-right: 10px;
+}
+
+.reset-item:hover {
+    color: rgb(178, 1, 1);
+}
+
+.content-item-quantity {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Tambahkan gap antar input */
+}
+
+.content-item-quantity .input-wrapper:first-child {
+    flex: 3.5; /* Field Item lebih lebar */
+}
+
+.content-item-quantity .input-wrapper:nth-child(2) {
+    flex: 1; /* Field Item lebih lebar */
+}
+
+.content-item-quantity .input-wrapper:last-child {
+    flex: 1.5; /* Field Quantity lebih kecil */
+}

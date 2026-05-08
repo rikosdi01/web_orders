@@ -1,0 +1,20 @@
+.order-process-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-process-action {
+    display: flex;
+    gap: 8px;
+}
+
+.over-scanned {
+    background-color: red;
+    color: white;
+}
+
+.matched-scanned {
+    background-color: rgb(117, 239, 117);
+    color: white;
+}

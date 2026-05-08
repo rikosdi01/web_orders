@@ -1,0 +1,6 @@
+.order-action {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}

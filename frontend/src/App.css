@@ -1,0 +1,8 @@
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1; /* Membuat konten utama mengambil sisa ruang */
+  /* padding: 20px; Padding di sekitar konten */
+}

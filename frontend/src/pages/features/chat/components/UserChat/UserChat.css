@@ -1,0 +1,37 @@
+.user-chat-container {
+    display: flex;
+}
+
+.user-chat {
+    display: inline-flex;
+    position: relative;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: end;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.chat-content-message {
+    font-size: 14px;
+}
+
+.chat-image {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chat-content-read {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 2px;
+    right: 10px;
+}
+
+.chat-read-status {
+    display: flex;
+}

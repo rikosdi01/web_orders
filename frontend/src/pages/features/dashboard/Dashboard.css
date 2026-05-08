@@ -1,0 +1,51 @@
+.dashboard-container {
+    padding: 24px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+    max-height: 95vh;
+}
+
+@media (min-width: 768px) {
+    .dashboard-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .dashboard-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.chart-card {
+    background: white;
+    padding: 24px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.chart-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.full-width {
+    grid-column: span 1;
+}
+
+@media (min-width: 1024px) {
+    .full-width {
+        grid-column: span 2;
+    }
+}
+
+.loading-text {
+    text-align: center;
+    grid-column: span 3;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

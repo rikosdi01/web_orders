@@ -24,20 +24,20 @@ Sistem manajemen pesanan logistik terintegrasi yang dirancang khusus untuk opera
 ### 1. Dashboard Operasional
 Ringkasan data logistik yang memberikan informasi cepat mengenai status pesanan saat ini.
 <p align="center">
-  <img src="/frontend/assets/preview/dashboard.png" width="800" alt="Dashboard"/>
+  <img src="frontend/public/assets/preview/dashboard.png" width="800" alt="Dashboard"/>
 </p>
 
 ### 2. Manajemen Pesanan
 Sistem pelacakan pesanan yang transparan dengan fitur pencarian dan filter status yang akurat.
 <p align="center">
-  <img src="/frontend/assets/preview/orders.png" width="800" alt="Order List"/>
+  <img src="frontend/public/assets/preview/orders.png" width="800" alt="Order List"/>
 </p>
 
 ### 3. Pengolahan Data & Integrasi Barcode
 Halaman pengisian item pesanan telah disiapkan untuk mendukung efisiensi input data melalui perangkat barcode scanner.
 
 <p align="center">
-  <img src="/frontend/assets/preview/order_process.png" width="600" alt="Barcode Interface"/>
+  <img src="frontend/public/assets/preview/order_process.png" width="600" alt="Barcode Interface"/>
 </p>
 
 > [!NOTE]  

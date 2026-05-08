@@ -1,5 +1,13 @@
 # 📦 System Logistic - Web Orders System
 
+<p align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+</p>
+
 Sistem manajemen pesanan logistik terintegrasi yang dirancang khusus untuk operasional **Logistic**. Aplikasi ini mempermudah pengelolaan data pesanan, pemantauan stok, dan komunikasi antar divisi secara real-time.
 
 ---
